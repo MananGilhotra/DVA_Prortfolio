@@ -8,7 +8,7 @@ export default function Sidebar() {
   return (
     <aside className="sidebar">
       <img
-        src={`${import.meta.env.BASE_URL}Git_Profile.png`}
+        src={`${import.meta.env.BASE_URL}IMG_0461.jpg`}
         alt="Profile"
         className="sidebar-avatar"
       />

@@ -52,6 +52,7 @@ To run this project locally, follow these steps:
 ## Featured Projects
 
 - **Transactions Fraud Detection**: End-to-end fraud detection analysis using machine learning on financial transaction data.
+- **SmartStay Analytics**: Interactive analytics dashboard built to examine revenue and pricing strategy for the hospitality industry.
 
 ## Contact
 
