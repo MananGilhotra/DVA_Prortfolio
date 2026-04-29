@@ -52,8 +52,6 @@ To run this project locally, follow these steps:
 ## Featured Projects
 
 - **Transactions Fraud Detection**: End-to-end fraud detection analysis using machine learning on financial transaction data.
-- **Hotel Booking Analytics**: Interactive analytics dashboard built to examine hotel booking demand, cancellation behavior, and revenue performance.
-- **AI Study Coach**: End-to-end student performance prediction system with a Streamlit-based interactive UI for real-time predictions.
 
 ## Contact
 
