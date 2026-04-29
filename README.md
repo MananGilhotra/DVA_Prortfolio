@@ -58,4 +58,4 @@ To run this project locally, follow these steps:
 ## Contact
 
 - **GitHub**: [MananGilhotra](https://github.com/MananGilhotra)
-- **Email**: manangilhotra010@gmail.com
+- **Email**: manangilhotra09@gmail.com
