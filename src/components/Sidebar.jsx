@@ -1,4 +1,10 @@
 export default function Sidebar() {
+  const skills = [
+    "Python", "JavaScript", "Node.js", "Express.js", "React", "Next.js",
+    "GenAI", "Machine Learning", "PostgreSQL", "MongoDB", "MySQL",
+    "Prisma ORM", "Pandas", "NumPy", "Scikit-learn", "Tableau", "Excel"
+  ]
+
   return (
     <aside className="sidebar">
       <img
@@ -12,7 +18,12 @@ export default function Sidebar() {
         I transform complex data into clear, actionable insights through interactive dashboards and analytical storytelling. As a Data Visualization Analyst, I specialize in Tableau, SQL, Excel, and Python to build impactful solutions for fraud analytics, risk monitoring, customer insights, and business performance. I focus on uncovering trends, detecting anomalies, and designing dashboards that help stakeholders make faster, smarter decisions.
       </p>
 
-      <button className="sidebar-follow-btn">Follow / Contact</button>
+      <button
+        className="sidebar-follow-btn"
+        onClick={() => window.location.href = "mailto:manangilhotra09@gmail.com"}
+      >
+        Follow / Contact
+      </button>
 
       <div className="sidebar-info">
         <div className="sidebar-info-item">
@@ -38,23 +49,15 @@ export default function Sidebar() {
       <div className="sidebar-orgs">
         <h3 className="sidebar-orgs-title">Skills</h3>
         <div className="sidebar-orgs-list">
-          <span className="org-pill">Python</span>
-          <span className="org-pill">JavaScript</span>
-          <span className="org-pill">Node.js</span>
-          <span className="org-pill">Express.js</span>
-          <span className="org-pill">React</span>
-          <span className="org-pill">Next.js</span>
-          <span className="org-pill">GenAI</span>
-          <span className="org-pill">Machine Learning</span>
-          <span className="org-pill">PostgreSQL</span>
-          <span className="org-pill">MongoDB</span>
-          <span className="org-pill">MySQL</span>
-          <span className="org-pill">Prisma ORM</span>
-          <span className="org-pill">Pandas</span>
-          <span className="org-pill">NumPy</span>
-          <span className="org-pill">Scikit-learn</span>
-          <span className="org-pill">Tableau</span>
-          <span className="org-pill">Excel</span>
+          {skills.map((skill, i) => (
+            <span
+              key={skill}
+              className="org-pill"
+              style={{ animationDelay: `${0.6 + i * 0.04}s` }}
+            >
+              {skill}
+            </span>
+          ))}
         </div>
       </div>
     </aside>
